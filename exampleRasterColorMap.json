@@ -1,0 +1,32 @@
+var rasterColors = [
+	{
+		"fileName": "example1.tiff",
+		"colorMaps": [
+			{
+				"upperBoundary": 4,
+				"color": "#ffffff"
+			},
+			{
+				"upperBoundary": 10,
+				"color": "#000000"
+			}			
+		]
+	},
+	{
+		"fileName": "example2.tiff",
+		"colorMaps": [
+			{
+				"upperBoundary": 32.3,
+				"color": "#ffffff"
+			},
+			{
+				"upperBoundary": 132.3,
+				"color": "#ffff00"
+			},
+			{
+				"upperBoundary": 9999999,
+				"color": "#000000"
+			}
+		]
+	}
+];

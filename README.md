@@ -4,10 +4,8 @@ quito-climate-study
 Build process and web portal for the results of a climate change vulnerability study on Quito, Ecuador.
 
 ###Setting up a development environment to enable you to rebuild this application
-#### Notes: 
-1. This is only necessary if you wish to change the structure of the geoportal, for example, to add another section or additional maps. To update existing maps content, see below.
-2. This setup was executed on Windows 7 (should work on other platforms as well but this has not been tested).
-#### Procedures:
+NOTE: This is only necessary if you wish to change the structure of the geoportal, for example, to add another section or additional maps. To update existing maps content, see below. This setup was executed on Windows 7 (should work on other platforms as well but this has not been tested).
+
 1. Read Yeoman getting started here:[http://yeoman.io/gettingstarted.html](http://yeoman.io/gettingstarted.html)
 2. Install node js: http://nodejs.org/download/ 
 3. Open a command prompt (Windows 7: Start Menu => Type "cmd" => Press Enter).

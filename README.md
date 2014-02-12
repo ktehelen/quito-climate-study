@@ -3,7 +3,7 @@ quito-climate-study
 
 Build process and web portal for the results of a climate change vulnerability study on Quito, Ecuador.
 
-##Setting up a development environment on Windows 7 to enable you to rebuild this application (should work on other platforms as well but not explicitly tested).
+###Setting up a development environment on Windows 7 to enable you to rebuild this application (should work on other platforms as well but not explicitly tested).
 
 #### Note: This is only necessary if you wish to change the structure of the geoportal, for example, to add another section or additional maps. To update existing maps content, see below.
 

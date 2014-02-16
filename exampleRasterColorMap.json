@@ -1,4 +1,4 @@
-var rasterColors = [
+[
 	{
 		"fileName": "tmed_dif_alto.tif",
 		"colorMaps": [
@@ -9,7 +9,7 @@ var rasterColors = [
 			{
 				"upperBoundary": 999999,
 				"color": "#CD6666"
-			},
+			}
 		]
 	},
 	{
@@ -38,7 +38,7 @@ var rasterColors = [
 			{
 				"upperBoundary": 99999,
 				"color": "#A80000"
-			},
+			}
 		]
 	},
 	{
@@ -71,7 +71,7 @@ var rasterColors = [
 			{
 				"upperBoundary": 9999999,
 				"color": "#0C1078"
-			},
+			}
 		]
 	}
-];
+]

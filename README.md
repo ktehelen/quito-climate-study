@@ -11,7 +11,7 @@ NOTE: This is only necessary if you wish to change the structure of the geoporta
 3. Open a command prompt (Windows 7: Start Menu => Type "cmd" => Press Enter).
 4. Install yeoman by typing: npm install -g yo (Enter)
 5. Install ruby by downloading and running the installer: http://rubyinstaller.org/. Make sure to put ruby executables in your PATH when prompted by the installer.
-6. Open a Git client (recommend Git Bash; alternatives include: Git Gui, Tower on Mac, Github for Windows, Visual Studio Git Integration) and type cd <Path of directory to hold this project>.
+6. Open a Git client (recommend Git Bash; alternatives include: Git Gui, Tower on Mac, Github for Windows, Visual Studio Git Integration) and type 'cd path-of-directory-to-hold-this-project'.
 7. Clone this project e.g. in Git Bash, type 'git clone https://github.com/hydrojumbo/quito-climate-study.git' (no quotes).
 8. In the command prompt, type cd quito-climate-study to move inside the just-created project folder.
 9. Install the angular generator: npm install -g generator-angular

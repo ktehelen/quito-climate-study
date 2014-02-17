@@ -8,7 +8,7 @@ angular.module('quitoClimateStudyApp')
     		name: 'Agua',
     		description: 'Please add text describing the sector for the Description del sector',
     		furtherInfoReport: 'Please make this the file name of a PDF document for more information as on Pagina 3 of spreadsheet',
-    		analysisNarrative: 'Please add text describing the narrative of the various ',
+    		analysisNarrative: 'Please add text for the Narrativa sobre el análisis para el sector Exposure, Sensitivity, Adaptative Capacity',
     		exposures: [
     			{
     				name: 'Climate',
@@ -59,7 +59,7 @@ angular.module('quitoClimateStudyApp')
             name: 'Salud',
             description: 'Please add text describing the sector for the Description del sector',
             furtherInfoReport: 'Please make this the file name of a PDF document for more information as on Pagina 3 of spreadsheet',
-            analysisNarrative: 'Please add text describing the narrative of the various ',
+            analysisNarrative: 'Please add text for the Narrativa sobre el análisis para el sector Exposure, Sensitivity, Adaptative Capacity',
             exposures: [
                 {
                     name: 'Climate',
@@ -110,7 +110,7 @@ angular.module('quitoClimateStudyApp')
             name: 'Agricultura',
             description: 'Please add text describing the sector for the Description del sector',
             furtherInfoReport: 'Please make this the file name of a PDF document for more information as on Pagina 3 of spreadsheet',
-            analysisNarrative: 'Please add text describing the narrative of the various ',
+            analysisNarrative: 'Please add text for the Narrativa sobre el análisis para el sector Exposure, Sensitivity, Adaptative Capacity',
             exposures: [
                 {
                     name: 'Climate',
@@ -161,7 +161,7 @@ angular.module('quitoClimateStudyApp')
             name: 'Ecosistemas',
             description: 'Please add text describing the sector for the Description del sector',
             furtherInfoReport: 'Please make this the file name of a PDF document for more information as on Pagina 3 of spreadsheet',
-            analysisNarrative: 'Please add text describing the narrative of the various ',
+            analysisNarrative: 'Please add text for the Narrativa sobre el análisis para el sector Exposure, Sensitivity, Adaptative Capacity',
             exposures: [
                 {
                     name: 'Climate',

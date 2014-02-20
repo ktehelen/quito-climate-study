@@ -18,7 +18,7 @@ This site uses an OpenStreetMap-compatible tilesource format to serve raster dat
 5. Open MapTiler. Load the file that was just exported from ArcGIS and choose Continue. 
 6. When options are presented to choose destination and Zoom from, select Folder and set the Zoom from equal to 7 to 12. Choose Render.
 
-You should make a separate folder for the tiles of each raster file you wish to display on the site. 
+You should make a separate folder for the tiles of each raster file you wish to display on the site. Before publishing the site to the cloud, you will need to move each of these folders into the quito-climate-study/tiles folder for the upload script to find them. 
 
 ###Preparing vector data for publication
 This site supports the use of GeoJson data sources to display vector datasets. Source data for these datasets can be upwards of 60Mb; to reduce the data size in storage and sent over the wire, gzip compression is applied prior to uploading the data files.
@@ -27,6 +27,7 @@ This site supports the use of GeoJson data sources to display vector datasets. S
 1. Load the shapefile in ArcGIS. 
 2. Use ArcToolbox/Conversion Tools/JSON/Features To JSON to export a GeoJSON representation of the shapefile.
 3. The site publication script will manage compression of these files.
+4. Before publishing the site to the cloud, copy or move each of these GeoJSON files to the quito-climate-study/vector folder so the upload script can find them.
 
 ###Setting up a development environment to enable you to rebuild this application
 NOTE: This is only necessary if you wish to change the structure of the geoportal, for example, to add another section or additional maps. To update existing maps content, see below. This setup was executed on Windows 7 (should work on other platforms as well but this has not been tested).

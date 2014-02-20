@@ -7,8 +7,10 @@ angular.module('quitoClimateStudyApp', [
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        /*templateUrl: 'views/main.html',
+        controller: 'MainCtrl'*/
+        templateUrl: 'views/report.html',
+        controller: 'ReportCtrl'
       })
       .otherwise({
         redirectTo: '/'

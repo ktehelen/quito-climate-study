@@ -16,7 +16,7 @@ namespace qcspublish
 		{
 			
 			jsondata = JsonConvert.DeserializeObject<RasterColorMap[]>(
-				File.ReadAllText(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "exampleRasterColorMap.json"))
+				File.ReadAllText(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\exampleRasterColorMap.json"))
 				.ToDictionary(k => k.fileName, v => v.colorMaps);
 		}
 

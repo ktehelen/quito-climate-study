@@ -63,7 +63,7 @@ namespace qcspublish
 
 				//write new output 		
 				GdalRasterLayer output = new GdalRasterLayer(fi.Name, resultDirectory + fi.Name);
-				
+				output.
 
 				
 				/*using (FileStream fs = new FileStream(resultDirectory + fi.Name.Replace(".tif", ".csv"), FileMode.Create))

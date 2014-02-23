@@ -16,4 +16,10 @@ angular.module('quitoClimateStudyApp')
     		name: 'Amenazas Morfoclimaticas'
     	}
     ];
+
+    return {
+        getAmanazaNames: function() {
+            return _.pluck(amenazas, 'name');
+        }
+    };
   });

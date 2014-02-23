@@ -5,7 +5,7 @@ angular.module('quitoClimateStudyApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma', 
+      'Karma',
       'Test'
     ];
   }]);

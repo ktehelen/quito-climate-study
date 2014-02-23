@@ -12,7 +12,7 @@ Build process and web portal for the results of a climate change vulnerability s
 This site uses an OpenStreetMap-compatible tilesource format to serve raster datasets over the web. Starting from 32-bit single-band raster files with color maps defined in ArcGIS .lyr files:
 
 1. Open a single raster layer in ArcMap.
-2. Use ArcToolbox/Data Management Tools/Raster/Raster Dataset/Copy Raster, specifying the raster layer as the Input Raster, and making sure to check the box next to 'Colormap to RGB (optional).' This will create a 3-band raster with values based on the color map specified in the .lyr.
+2. Use ArcToolbox/Data Management Tools/Raster/Raster Dataset/Copy Raster, specifying the raster layer as the Input Raster, making sure to check the box next to 'Colormap to RGB.', and specifying 8_BIT_UNSIGNED as the pixel type. This will create a 3-band raster with values based on the color map specified in the .lyr.
 3. Update the RGB colors associated with the generated raster file in case they do not match those specified in the original color map.
 4. Export the generated raster file by right-clicking on it in the Table Of Contents/Layers, and choosing Data/Export Data. In the Export Raster Data dialogue box that pops up, under Output Raster, check the Use Renderer, Force RGB, and Use Colormap boxes. Leave the other settings alone (Format should be TIFF).
 5. Open MapTiler. Load the file that was just exported from ArcGIS and choose Continue. 

@@ -1,1 +1,19 @@
-<p>This is the report view.</p>
+<div class="row" data-ng-show="currentView == 'main'">
+	<div class="col-md-3">  	
+		<h4>Ambitos  de Estudio para el análisis de vulnerabilidad</h4>
+		<p><strong>Vulnerabilidad</strong></p>  		
+		<div data-ng-repeat="v in vulnerabilities" data-ng-click="changeFocus('vulnerability', v)"><a>{{ v }}</a></div>    
+			<p><strong>Amenazas (lista)</strong></p>  		
+			<div data-ng-repeat="am in amenazaNames"><a>{{am}}</a></div>         
+		<h4>Documentos/Publicaciones</h4>  		  		
+		<div data-ng-repeat="doc in documents"><a href="{{doc.file}}">{{doc.name}}</a></div>    	       
+	</div>
+	<div class="col-md-9" data-ng-show="hasCurrentVulnerability()">
+		<div class="row">
+			<h4>{{ hasCurrentVulnerability() }}<h4>
+		</div>
+	</div>
+</div>
+<div class="row" data-ng-show="currentView == 'scenarios'">
+	<!--this will contain the map view for a particular scenario -->
+</div>

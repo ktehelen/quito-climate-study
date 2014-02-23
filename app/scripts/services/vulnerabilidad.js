@@ -155,7 +155,12 @@ angular.module('quitoClimateStudyApp')
                     map: 'This is the filename of this map'
                 }
             ],
-            excelFile: 'This is the filename of the Excel file to serve for this vulnerability'
+            dataFiles: [
+                {
+                    name: 'Name of dataset to show on site',
+                    file: 'Filename of dataset to download'
+                }
+            ]
         },
         {
             name: 'Ecosistemas',
@@ -209,4 +214,14 @@ angular.module('quitoClimateStudyApp')
             excelFile: 'This is the filename of the Excel file to serve for this vulnerability'
         }
     ];
+
+    return {
+        getVulnerabilityNames: function() {
+            return _.pluck(vulnerabilities, 'name');
+        },
+
+        getVulnerabilityByName: function(name){
+            return _.findWhere(vulnerabilities, { name: name });
+        }
+    };
   });

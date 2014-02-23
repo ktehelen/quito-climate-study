@@ -5,3 +5,9 @@ dist
 app/bower_components
 vector
 tiles
+bin/
+obj/
+*.suo
+*.ccproj.user
+*.csproj.user
+packages/

@@ -3,7 +3,12 @@
 angular.module('quitoClimateStudyApp')
   .service('Documents', function Documents() {
     // (list of documents)
+    var documentRoot = 'http://quitoestudiodeclima.blob.core.windows.net/documents/';    
     var documents = [
+        {
+            name: 'Example document',
+            file: 'example.txt'
+        },
     	{
     		name: 'Analisis de Percepción',
     		file: 'Filename of PDF to serve'
@@ -29,4 +34,15 @@ angular.module('quitoClimateStudyApp')
     		file: 'Filename of PDF to serve'
     	},
     ];
+
+    return {
+        getDocumentList: function(){
+            return _.map(documents, function(doc) {
+                return {
+                    name: doc.name,
+                    file: documentRoot + doc.file
+                };
+            });
+        }
+    };
   });

@@ -24,4 +24,11 @@ angular.module('quitoClimateStudyApp')
     var methodology = 'Please add a description of the methodology of this study';
     var methodologyDiagram = 'Filename of the workflow diagram of this study';
     var methodologyMoreInfo = 'Filename of a PDF document contiaining more information about methodology';
+
+    return {
+        terms: terms,
+        methodology: methodology,
+        methodologyDiagram: methodologyDiagram,
+        methodologyMoreInfo: methodologyMoreInfo
+    };
   });

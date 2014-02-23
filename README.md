@@ -6,7 +6,7 @@ Build process and web portal for the results of a climate change vulnerability s
 
 ###Preparing raster data for publication
 ####Tools used:
-1. (FWTools 2.4.7 (Windows 32bit))[http://fwtools.maptools.org/]
+1. [FWTools 2.4.7 Windows 32bit](http://fwtools.maptools.org/)
 2. MapTiler 0.5.2 Start edition (single-user license costs $28 as of 2/15/2014)
 
 This site uses an OpenStreetMap-compatible tilesource format to serve raster datasets over the web. Starting from 32-bit single-band raster files with color maps defined in ArcGIS .lyr files:
@@ -32,11 +32,11 @@ This site supports the use of GeoJson data sources to display vector datasets. S
 ###Setting up a development environment to enable you to rebuild this application
 NOTE: This is only necessary if you wish to change the structure of the geoportal, for example, to add another section or additional maps. To update existing maps content, see below. This setup was executed on Windows 7 (should work on other platforms as well but this has not been tested).
 
-1. Read Yeoman getting started here:[http://yeoman.io/gettingstarted.html](http://yeoman.io/gettingstarted.html)
-2. Install node js: http://nodejs.org/download/ 
+1. Read [Yeoman getting started](http://yeoman.io/gettingstarted.html)
+2. Install [node js](http://nodejs.org/download/)
 3. Open a command prompt (Windows 7: Start Menu => Type "cmd" => Press Enter).
 4. Install yeoman by typing: npm install -g yo (Enter)
-5. Install ruby by downloading and running the installer: http://rubyinstaller.org/. Make sure to put ruby executables in your PATH when prompted by the installer.
+5. Install ruby by downloading and running [the installer](http://rubyinstaller.org/). Make sure to put ruby executables in your PATH when prompted by the installer.
 6. Open a Git client (recommend Git Bash; alternatives include: Git Gui, Tower on Mac, Github for Windows, Visual Studio Git Integration) and type 'cd path-of-directory-to-hold-this-project'.
 7. Clone this project e.g. in Git Bash, type 'git clone https://github.com/hydrojumbo/quito-climate-study.git' (no quotes).
 8. In the command prompt, type cd quito-climate-study to move inside the just-created project folder.

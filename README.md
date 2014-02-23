@@ -6,7 +6,7 @@ Build process and web portal for the results of a climate change vulnerability s
 
 ###Preparing raster data for publication
 ####Tools used:
-1. ArcGIS 10.3 (others may work)
+1. [http://fwtools.maptools.org/](FWTools 2.4.7 (Windows 32bit))
 2. MapTiler 0.5.2 Start edition (single-user license costs $28 as of 2/15/2014)
 
 This site uses an OpenStreetMap-compatible tilesource format to serve raster datasets over the web. Starting from 32-bit single-band raster files with color maps defined in ArcGIS .lyr files:
